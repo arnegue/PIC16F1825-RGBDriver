@@ -37,7 +37,8 @@ I used the IDE MPLAB-X and compiled with XC8 (v1.35). You can download the compi
 As the programmer I used PICkit 3.
 
 # Example-Program #
-In oder to test it without typing one (rrr,ggg,bbb)-String each time or programming a simple loop, i copied a JAVA-Project from a color-chooser and each time another color was chosen, I sent the new RGB-String. See my other projects therefor.
+In order to test it without typing one (rrr,ggg,bbb)-String each time or programming a simple loop, i copied a JAVA-Project from a color-chooser and each time another color was chosen, I sent the new RGB-String. See my other projects therefor.
+See [Serial Color Chooser](https://bitbucket.org/arnegue/serial-color-chooser/overview) for more details!
 
 # Futur programs #
 My primary aim for controlling this RGB-LED-Strip is, to change the color depending on the CPU-Temperature. This will be programmed later. Also another ide was to controll them depending on the music/beats running.
