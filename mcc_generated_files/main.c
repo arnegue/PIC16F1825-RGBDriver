@@ -1,7 +1,7 @@
 /*
  * File:   main.c
  * Author: Frosty
- * Small program which receives via USART RGB-Values
+ * Small program which receives via USART RGB-Values (rrr,ggg,bbb)\n
  * Created on 25. September 2016, 12:40
  */
 #include "mcc.h"
