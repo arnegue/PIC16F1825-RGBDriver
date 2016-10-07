@@ -3,7 +3,7 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>PWM25</name>
+            <name>pic16f1825-pwm-usart-led</name>
             <creation-uuid>6f163899-a931-4b0f-a247-df0fd4015b3f</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>

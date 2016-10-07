@@ -83,18 +83,18 @@
                 <setting name="SENDB" option="sync_break_complete" register="TXSTA"/>
                 <setting name="TX9D" option="0x0" register="TXSTA"/>
                 <setting name="TX9" option="8-bit" register="TXSTA"/>
-                <setting name="SPBRGL" option="160" register="SPBRGL"/>
-                <setting name="SPBRGH" option="1" register="SPBRGH"/>
+                <setting name="SPBRGL" option="34" register="SPBRGL"/>
+                <setting name="SPBRGH" option="0" register="SPBRGH"/>
                 <setting name="TXREG" option="0x0" register="TXREG"/>
                 <setting name="RCREG" option="0x0" register="RCREG"/>
-                <additionalSetting name="baudrateString" option="9600"/>
+                <additionalSetting name="baudrateString" option="115200"/>
             </initializer>
             <setting name="RCI" option="false"/>
             <setting name="TXI" option="false"/>
             <setting name="inputBuffer" option="8"/>
             <setting name="outputBuffer" option="8"/>
             <setting name="stdio" option="true"/>
-            <file checksum="234333680" modified="false" name="eusart.c" path="mcc_generated_files/eusart.c"/>
+            <file checksum="1326556773" modified="false" name="eusart.c" path="mcc_generated_files/eusart.c"/>
             <file checksum="954821240" modified="false" name="eusart.h" path="mcc_generated_files/eusart.h"/>
         </module>
         <module generated="true" mode="Timer" name="TMR2" order="1" reloadPin="manual" type="tmr_2">
