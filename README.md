@@ -47,7 +47,8 @@ My primary aim for controlling this RGB-LED-Strip is, to change the color depend
 
 # Pin-Out for Sockets #
 
-USB Plug Socket
+##USB Plug Socket##
+```
  __________
 |       |12|
 |_______|34|
@@ -56,8 +57,9 @@ USB Plug Socket
 2  Red	 5 Volt
 3  Green D +
 4  White D -
-
-Mini-DIN Plug Socket
+```
+##Mini-DIN Plug Socket##
+```
  _____
 |  |12|
 |__|34|
@@ -66,10 +68,9 @@ Mini-DIN Plug Socket
 2 Black  12 Volt
 3 Red	 LED-Red
 4 White  LED-Blue
-
-######################################
-
-Board Socket Power
+```
+##Board Socket Power##
+```
  ___
 |  _|
 |1|   
@@ -78,10 +79,9 @@ Board Socket Power
 
 1  12 V
 2  Gnd
-
-######################################
-
-Board Socket USB
+```
+##Board Socket USB##
+```
  ___
 |  _|
 |1|
@@ -94,10 +94,9 @@ Board Socket USB
 2  White D -
 3  Green D +
 4  Black Gnd
-
-######################################
-
-Board Socket LED
+```
+##Board Socket LED##
+```
  ___
 |  _|
 |1|
@@ -110,3 +109,5 @@ Board Socket LED
 2  LED-Green
 3  LED-Blue
 4  12 Volt
+```
+
