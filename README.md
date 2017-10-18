@@ -21,7 +21,7 @@ I first tried the IDE with an Arduino Uno. As you can see here: https://learn.ad
        -|2     13|- TX
        -|3     12|- RX
        -|4     11|- CCP3
-  CCP1 -|5     10|-
+  CCP1 -|5     10|- Status-LED
        -|6      9|- CCP4
        -|7______8|-
 ```
@@ -29,16 +29,84 @@ As you can see there are three CCP-Pins for PWM and two pins for RX/TX each.
 If
 
 # USART-Command-String #
-One command string is build this way: ``(rrr,ggg,bbb)`` whereas ``(`` is ASCII-Sign 0x28,  ``)`` is 0x29, ``,`` is 0x2C. rrr, ggg, bbb are each decimal digits from ``0`` (0x30) to ``9`` (0x39) each. Minimum value for the whole value is 0 and maximum 255.
-Example: ``(021,128,255)``
+One command string is build this way: ``(r,g,b)`` whereas ``(`` is ASCII-Sign 0x28,  ``)`` is 0x29, ``,`` is 0x2C. r, g, b are each decimal digits from 0 to 255 each fitting in one byte of data.
 
 # IDE and compiling #
 I used the IDE MPLAB-X and compiled with XC8 (v1.35). You can download the compiler from the Microchip-Homepage and select it after the installation in the IDE.
 As the programmer I used PICkit 3.
 
 # Example-Program #
-In order to test it without typing one (rrr,ggg,bbb)-String each time or programming a simple loop, I copied a JAVA-Project from a color-chooser and each time another color was chosen, I sent the new RGB-String. See my other projects therefor.
-See [Serial Color Chooser](https://bitbucket.org/arnegue/serial-color-chooser/overview) for more details!
+In order to test it without typing one (r,g,b)-String each time or programming a simple loop, I copied a JAVA-Project from a color-chooser and each time another color was chosen, I sent the new RGB-String. See my other projects therefor.
+See [Serial Color Chooser](https://bitbucket.org/arnegue/serial-color-chooser) (Java) or bigger [Audio-CPU-RGB](https://bitbucket.org/arnegue/audio-cpu-rgb) (C#) for more details!
 
 # Future programs #
 My primary aim for controlling this RGB-LED-Strip is, to change the color depending on the CPU-Temperature. This will be programmed later. Also another IDE was to control them depending on the music/beats running.
+
+
+
+
+# Pin-Out for Sockets #
+
+USB Plug Socket
+ __________
+|       |12|
+|_______|34|
+
+1  Black Gnd
+2  Red	 5 Volt
+3  Green D +
+4  White D -
+
+Mini-DIN Plug Socket
+ _____
+|  |12|
+|__|34|
+
+1 Yellow LED-Green
+2 Black  12 Volt
+3 Red	 LED-Red
+4 White  LED-Blue
+
+######################################
+
+Board Socket Power
+ ___
+|  _|
+|1|   
+|2|_
+|___|
+
+1  12 V
+2  Gnd
+
+######################################
+
+Board Socket USB
+ ___
+|  _|
+|1|
+|2|
+|3|   
+|4|_
+|___|
+
+1  Red	 5 Volt
+2  White D -
+3  Green D +
+4  Black Gnd
+
+######################################
+
+Board Socket LED
+ ___
+|  _|
+|1|
+|2|
+|3|   
+|4|_
+|___|
+
+1  LED-Red
+2  LED-Green
+3  LED-Blue
+4  12 Volt
