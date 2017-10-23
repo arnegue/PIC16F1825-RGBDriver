@@ -42,12 +42,18 @@ See [Serial Color Chooser](https://bitbucket.org/arnegue/serial-color-chooser) (
 # Future programs #
 My primary aim for controlling this RGB-LED-Strip is, to change the color depending on the CPU-Temperature. This will be programmed later. Also another IDE was to control them depending on the music/beats running.
 
+#  Example #
+An example for how both programs interact can be found on [Youtube](https://youtu.be/dFWHwqLQKIw).
 
 
+# Circuit Board #
+I made a small Circuit Board for the Microcontroller and the Transistors.:
 
-# Pin-Out for Sockets #
+![Circuit Board](Circuit_Board.jpg)
 
-##USB Plug Socket##
+## Pin-Out for Sockets ##
+
+###USB Plug Socket###
 ```
  __________
 |       |12|
@@ -58,7 +64,7 @@ My primary aim for controlling this RGB-LED-Strip is, to change the color depend
 3  Green D +
 4  White D -
 ```
-##Mini-DIN Plug Socket##
+###Mini-DIN Plug Socket###
 ```
  _____
 |  |12|
@@ -69,7 +75,7 @@ My primary aim for controlling this RGB-LED-Strip is, to change the color depend
 3 Red	 LED-Red
 4 White  LED-Blue
 ```
-##Board Socket Power##
+###Board Socket Power###
 ```
  ___
 |  _|
@@ -80,7 +86,7 @@ My primary aim for controlling this RGB-LED-Strip is, to change the color depend
 1  12 V
 2  Gnd
 ```
-##Board Socket USB##
+###Board Socket USB###
 ```
  ___
 |  _|
@@ -95,7 +101,7 @@ My primary aim for controlling this RGB-LED-Strip is, to change the color depend
 3  Green D +
 4  Black Gnd
 ```
-##Board Socket LED##
+###Board Socket LED###
 ```
  ___
 |  _|
