@@ -53,7 +53,7 @@ I made a small Circuit Board for the Microcontroller and the Transistors.:
 
 ## Pin-Out for Sockets ##
 
-###USB Plug Socket###
+### USB Plug Socket ###
 ```
  __________
 |       |12|
@@ -64,7 +64,7 @@ I made a small Circuit Board for the Microcontroller and the Transistors.:
 3  Green D +
 4  White D -
 ```
-###Mini-DIN Plug Socket###
+### Mini-DIN Plug Socket ###
 ```
  _____
 |  |12|
@@ -75,7 +75,7 @@ I made a small Circuit Board for the Microcontroller and the Transistors.:
 3 Red	 LED-Red
 4 White  LED-Blue
 ```
-###Board Socket Power###
+### Board Socket Power ###
 ```
  ___
 |  _|
@@ -86,7 +86,7 @@ I made a small Circuit Board for the Microcontroller and the Transistors.:
 1  12 V
 2  Gnd
 ```
-###Board Socket USB###
+### Board Socket USB ###
 ```
  ___
 |  _|
@@ -101,7 +101,7 @@ I made a small Circuit Board for the Microcontroller and the Transistors.:
 3  Green D +
 4  Black Gnd
 ```
-###Board Socket LED###
+### Board Socket LED ###
 ```
  ___
 |  _|
